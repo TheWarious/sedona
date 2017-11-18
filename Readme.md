@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Some Name](https://up.htmlacademy.ru/adaptive/n/user/623175).
-* Наставник: `Отсутствует`.
+* Наставник: `Я сам себе наставник`.
 
 ---
 
