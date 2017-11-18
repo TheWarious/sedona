@@ -1,0 +1,7 @@
+language: none
+
+node_js:
+  - "0"
+
+notifications:
+  email: false
