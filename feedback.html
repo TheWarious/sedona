@@ -1,0 +1,120 @@
+<DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Sedona | Feedback</title>
+	</head>
+	<body>
+		<!-- main-header starts here -->
+		<header class="main-header">
+			<nav class="main-nav">
+				<ul class="main-nav-list">
+					<li class="main-nav-list__item"><a href="javascript.void(0);">Главная</a></li>
+					<li class="main-nav-list__item"><a href="javascript.void(0);">Фото и видео</a></li>
+					<li class="main-nav-list__item"><a>Форма отзыва</a></li>
+					<li class="main-nav-list__item"><a href="javascript.void(0);">HTML Academy</a></li>
+				</ul>
+			</nav>
+			<img class="logo" src="http://lorempixel.com/output/people-q-c-100-80-7.jpg" width="100px" height="80px" alt="Sedona Logo">
+			<section class="main-header__content">
+				<h1 class="main-header__title">
+					Sedona 
+				</h1>
+			</section>
+		</header>
+		<!-- /main-header ends here -->
+		<!-- feedback section starts here -->
+		<section class="feedback">
+			<form class="feedback-form" action="/">
+				<h1>Оставьте ваш отзыв</h1>
+				<section class="feedback-form__item">
+					<fieldset>
+						<h2>Представьтесь, пожалуйста:</h2>
+						<label for="firstname">
+							Имя: <input type="text" id="firstname" placeholder="Петр"><br>
+						</label>
+						<label for="lastname"> 
+							Фамилия: <input type="text" id="firstname" placeholder="Иванов"><br>
+						</label>
+						<label for="patronymic">
+							Отчество: <input type="text" id="patronymic" placeholder="Александрович">
+						</label>
+					</fieldset>
+				</section>
+				<section class="feedback-form__item">
+					<fieldset>
+						<h2>Контактная информация:</h2>
+						<span class="feedback-caption">Контактный телефон:</span>
+						<label for="phone">
+							<input type="text" id="phone" placeholder="Введите телефон"><br>
+						</label>
+						<span class="feedback-caption">Эектронная почта:</span>
+						<label for="email"> 
+							<input type="text" id="email" placeholder="Введите e-mail"><br>
+						</label>
+					</fieldset>
+				</section>
+				<section class="feedback-form__item">
+					<fieldset>
+					  <h2>Ваще общее впечатление:</h2>
+				    <p>
+				      <input type="radio" name="grade" id="positive" value="Скорее положительное" checked="checked">
+				      <label for="positive">Скорее положительное</label>
+				    </p>
+				    <p>
+				      <input type="radio" name="grade" id="negative" value="medium">
+				      <label for="negative">Скорее отрицательное</label>
+				    </p>
+				    <p>
+				      <input type="radio" name="grade" id="difficult" value="large">
+				      <label for="difficult">Затрудняюсь ответить</label>
+				    </p>
+				  </fieldset>
+				</section>
+				<section class="feedback-form__item">
+					<fieldset>
+						<h2>
+							Посещенные
+							достопримечательности:
+						</h2>
+						<p>
+					    <label for="devil_bridge">Мост дьявола</label>
+					    <input type="checkbox" id="devil_bridge" name="attractions" value="Мост дьявола" checked>
+					  </p>
+					  <p>
+					    <label for="slide_park">Слайд-парк</label>
+					    <input type="checkbox" id="slide_park" name="attractions" value="Слайд-парк" checked>
+					  </p>
+					  <p>
+					    <label for="mountain_bell">Гора-колокол</label>
+					    <input type="checkbox" id="mountain_bell" name="attractions" value="Гора-колокол">
+					  </p>
+					  <p>
+					    <label for="red_rocks">Красные скалы</label>
+					    <input type="checkbox" id="red_rocks" name="attractions" value="Красные скалы" checked>
+					  </p>
+					</fieldset>
+				</section>
+				<section class="feedback-form__item">
+					<fieldset>
+						<h2>Опишите свои эмоции:</h2>
+						<textarea name="emotions" cols="30" rows="10" placeholder="Опишите подробно все свои восторги">
+						</textarea><br>
+						<button>Отправить отзыв</button>
+					</fieldset>
+				</section>
+			</form>
+		</section>
+		<!-- /feedback section ends here -->
+		<!-- footer section starts here -->
+		<footer class="main-footer">
+			<h2 class="main-footer__title">#VISITSEDONA</h2>
+			<ul class="main-footer-list">
+				<li class="main-footer-list__item  main-footer-list__item--twitter"><a href="javascript.void(0);">Читать нас в твиттере</a></li>
+				<li class="main-footer-list__item  main-footer-list__item--fb"><a href="javascript.void(0);">Наши посты в фейсбуке</a></li>
+				<li class="main-footer-list__item  main-footer-list__item--youtube"><a href="javascript.void(0);">Смотреть видео о Соедоне</a></li>
+			</ul>
+			<small class="copyright">Разработано</small>
+		</footer>
+		<!-- /footer section ends here -->
+	</body>
+</html>
